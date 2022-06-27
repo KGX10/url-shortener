@@ -40,7 +40,7 @@ app.use("/s-url", require("./routes/redirect"));
 app.use("/api/url", require("./routes/url"));
 
 //Port
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 connectToDB();
 
 app.listen(PORT, () => {
