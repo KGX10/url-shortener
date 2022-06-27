@@ -1,0 +1,4 @@
+{
+  "baseUrl": "https://url-shortener-kg.herokuapp.com",
+  "mongoUri": "mongodb+srv://koustavgandhi:messi102001@kgcluster.sjrpd8a.mongodb.net/?retryWrites=true&w=majority"
+}
